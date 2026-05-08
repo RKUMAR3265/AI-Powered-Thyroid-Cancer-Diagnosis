@@ -13,7 +13,7 @@ The final output classifies patients into:
 - Medium Risk
 - High Risk
 
----
+
 
 ## Features
 
@@ -26,7 +26,7 @@ The final output classifies patients into:
 - Probability graph visualization
 - Web-based interface using Flask
 
----
+
 
 ## Technologies Used
 
@@ -53,7 +53,7 @@ The final output classifies patients into:
 - VS Code
 - Git & GitHub
 
----
+
 
 ## Project Structure
 
@@ -88,7 +88,7 @@ thyroid_app/
 └── README.md
 ```
 
----
+
 
 ## Workflow
 
@@ -117,7 +117,7 @@ Pfinal = 0.4 × Pimg + 0.6 × Pclin
 - 0.3 – 0.6 → Medium Risk
 - > 0.6 → High Risk
 
----
+
 
 ## Installation
 
@@ -145,7 +145,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
----
+
 
 ## Results
 
@@ -154,7 +154,7 @@ python app.py
 - Reduced dependency on manual interpretation
 - Better clinical decision support
 
----
+
 
 ## Future Enhancements
 
@@ -164,24 +164,7 @@ python app.py
 - Multi-disease prediction
 - EHR integration
 
----
 
-## Team Members
-
-- S. Jayanthi Reddy
-- K. Bindu
-- Rithik Kumar
-- Shiva Saidhar
-
----
-
-## Supervisor
-
-Mr. Mohammed Ali, M.Tech (Ph.D.)  
-Assistant Professor  
-CSE – Data Science
-
----
 
 ## License
 
