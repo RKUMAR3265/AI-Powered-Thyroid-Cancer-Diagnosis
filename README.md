@@ -1,15 +1,22 @@
-AI Powered System for Early Diagnosis of Thyroid Cancer
-Overview
+# AI Powered System for Early Diagnosis of Thyroid Cancer
+
+## Overview
 This project is an AI-based multimodal thyroid cancer diagnosis system that combines ultrasound image analysis and clinical data prediction to provide early and accurate thyroid cancer risk assessment.
+
 The system uses:
 - CNN (Convolutional Neural Network) for ultrasound image classification
 - Random Forest Machine Learning model for clinical data analysis
 - Weighted fusion technique for final prediction
+
 The final output classifies patients into:
 - Low Risk
 - Medium Risk
 - High Risk
-Features
+
+---
+
+## Features
+
 - Thyroid ultrasound image analysis
 - Clinical biomarker prediction
 - AI-generated risk classification
@@ -18,27 +25,39 @@ Features
 - Medical report generation
 - Probability graph visualization
 - Web-based interface using Flask
-Technologies Used
-Frontend
+
+---
+
+## Technologies Used
+
+### Frontend
 - HTML5
 - CSS3
 - JavaScript
-Backend
+
+### Backend
 - Python
 - Flask
-Machine Learning & Deep Learning
+
+### Machine Learning & Deep Learning
 - TensorFlow
 - Keras
 - Scikit-learn
-Data Processing
+
+### Data Processing
 - NumPy
 - Pandas
-Tools
+
+### Tools
 - Jupyter Notebook
 - VS Code
 - Git & GitHub
-Project Structure
-text
+
+---
+
+## Project Structure
+
+```text
 thyroid_app/
 │
 ├── app.py
@@ -67,48 +86,103 @@ thyroid_app/
 ├── requirements.txt
 │
 └── README.md
-Workflow
-Step 1: Image Analysis
+```
+
+---
+
+## Workflow
+
+### Step 1: Image Analysis
 Ultrasound images are processed using a CNN model to extract texture and shape-based features.
-Step 2: Clinical Data Analysis
+
+### Step 2: Clinical Data Analysis
 Clinical parameters such as:
 - TSH
 - T3
 - T4
 - Age
 - Gender
+
 are analyzed using a Random Forest model.
-Step 3: Multimodal Fusion
+
+### Step 3: Multimodal Fusion
 Both model outputs are combined using a weighted fusion formula:
-math
+
+```math
 Pfinal = 0.4 × Pimg + 0.6 × Pclin
-Step 4: Risk Classification
+```
+
+### Step 4: Risk Classification
 - Pfinal < 0.3 → Low Risk
 - 0.3 – 0.6 → Medium Risk
 - > 0.6 → High Risk
-Installation
-Clone Repository
-bash
+
+---
+
+## Installation
+
+### Clone Repository
+
+```bash
 git clone https://github.com/YOUR_USERNAME/AI-Powered-Thyroid-Cancer-Diagnosis.git
-Navigate to Project Folder
-bash
+```
+
+### Navigate to Project Folder
+
+```bash
 cd AI-Powered-Thyroid-Cancer-Diagnosis
-Install Dependencies
-bash
+```
+
+### Install Dependencies
+
+```bash
 pip install -r requirements.txt
-Run Application
-bash
+```
+
+### Run Application
+
+```bash
 python app.py
-Results
+```
+
+---
+
+## Results
+
 - Accuracy: 94.3%
 - Improved diagnostic reliability using multimodal AI
 - Reduced dependency on manual interpretation
 - Better clinical decision support
-Future Enhancements
+
+---
+
+## Future Enhancements
+
 - ResNet / EfficientNet integration
 - Explainable AI (XAI)
 - Mobile application deployment
 - Multi-disease prediction
 - EHR integration
-License
+
+---
+
+## Team Members
+
+- S. Jayanthi Reddy
+- K. Bindu
+- Rithik Kumar
+- Shiva Saidhar
+
+---
+
+## Supervisor
+
+Mr. Mohammed Ali, M.Tech (Ph.D.)  
+Assistant Professor  
+CSE – Data Science
+
+---
+
+## License
+
 This project is developed for educational and research purposes.
